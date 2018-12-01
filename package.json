@@ -1,0 +1,18 @@
+{
+  "name": "ga-drug-discovery",
+  "version": "1.0.0",
+  "description": "Using genetic algorithm in a basic drug discovery process",
+  "main": "coreGA.js",
+  "scripts": {
+    "start": "node ./tests/coreGA.test.js",
+    "test": "tape ./tests/*"
+  },
+  "author": "Natalia Pattarone",
+  "license": "ISC",
+  "devDependencies": {
+    "tape": "^4.9.1"
+  },
+  "directories": {
+    "test": "tests"
+  }
+}
